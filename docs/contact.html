@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Bytes Smith</title>
+  <meta name="description" content="Get in touch with Bytes Smith. Tell us your challenge and we'll tell you exactly what's possible." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ========== NAV ========== -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">Bytes<span>Smith</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="btn btn-primary">Talk to Us</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== PAGE HERO ========== -->
+  <section class="page-hero">
+    <div class="container">
+      <p class="section-label" style="color: var(--teal);">Let's Talk</p>
+      <h1>Get in Touch</h1>
+      <p>Tell us your challenge. We'll give you honest, practical advice on what AI can do for your business.</p>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT LAYOUT ========== -->
+  <div class="container">
+    <div class="contact-layout">
+
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <h2>We'd love to hear from you</h2>
+        <p>Whether you have a clear project brief or just an idea you want to explore — reach out. We don't do high-pressure sales. Just a genuine conversation.</p>
+        <div class="contact-detail">
+          <div class="contact-detail-item">
+            <span>Email</span>
+            <span>hello@bytessmith.com</span>
+          </div>
+          <div class="contact-detail-item">
+            <span>Location</span>
+            <span>Singapore</span>
+          </div>
+          <div class="contact-detail-item">
+            <span>Response Time</span>
+            <span>We aim to reply within 1 business day</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <form class="contact-form" name="contact" method="POST" action="#">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Jane Smith" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="jane@company.com" required />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="company">Company (optional)</label>
+          <input type="text" id="company" name="company" placeholder="Your company name" />
+        </div>
+
+        <div class="form-group">
+          <label for="service">Which service are you interested in?</label>
+          <select id="service" name="service">
+            <option value="" disabled selected>Select a service</option>
+            <option value="products">AI Products</option>
+            <option value="custom">Custom AI Solutions</option>
+            <option value="consultancy">AI Services &amp; Consultancy</option>
+            <option value="unsure">Not sure yet</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Tell us about your challenge</label>
+          <textarea id="message" name="message" placeholder="Describe the problem you're trying to solve or the outcome you're looking for..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width: fit-content;">Send Message</button>
+      </form>
+
+    </div>
+  </div>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" style="margin-top: 0;">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">Bytes<span>Smith</span></a>
+          <p>AI tools, custom solutions, and consultancy for businesses in Singapore and beyond.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html#products">AI Products</a></li>
+            <li><a href="services.html#custom">Custom AI Solutions</a></li>
+            <li><a href="services.html#consultancy">AI Consultancy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 Bytes Smith Pte. Ltd. · Singapore</span>
+        <a href="contact.html">hello@bytessmith.com</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
