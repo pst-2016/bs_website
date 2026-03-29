@@ -22,10 +22,12 @@
 ### Content
 - [X] Replace placeholder email `aldrich@bytes-smith.com` with real contact email
 - [X] Add real company registration details (Pte. Ltd. number) contact
+- [ ] Change icons
 - [ ] Add team bios or headshots to About page (optional at launch)
 - [ ] Populate AI Products section with actual product names/descriptions when ready
 
 ### Technical
+- [X] Implemented formspree for send message
 - [ ] Add `favicon.ico` (and optionally `apple-touch-icon.png`) to `docs/`
 - [ ] Hook up contact form to a form backend — recommended options:
   - [Formspree](https://formspree.io) — free tier, no backend needed
