@@ -20,7 +20,7 @@
 ## Next Steps
 
 ### Content
-- [ ] Replace placeholder email `hello@bytessmith.com` with real contact email
+- [X] Replace placeholder email `aldrich@bytes-smith.com` with real contact email
 - [ ] Add real company registration details (Pte. Ltd. number) to footer if needed
 - [ ] Add team bios or headshots to About page (optional at launch)
 - [ ] Populate AI Products section with actual product names/descriptions when ready

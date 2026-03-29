@@ -14,7 +14,8 @@
                 "ms-python.python",
                 "ms-python.vscode-pylance",
                 "ms-python.flask-snippets",
-                "njpwerner.autodocstring"
+                "njpwerner.autodocstring",
+                "anthropic.claude-code"
             ]
         }
     },
