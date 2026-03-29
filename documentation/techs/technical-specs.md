@@ -84,10 +84,7 @@ No frameworks, no dependencies, no bundler required.
 
 ## Contact Form
 
-Currently a plain HTML form (`method="POST"`). Requires a form backend before going live. Recommended options:
-
-- **Formspree** — add `action="https://formspree.io/f/{id}"` to the form element
-- **Netlify Forms** — add `data-netlify="true"` attribute if hosting on Netlify (zero config)
+Handled by **Formspree** (`https://formspree.io/f/mdapegoy`). The form POSTs directly to Formspree, which forwards submissions to `aldrich@bytes-smith.com`. No backend required. Free tier allows 50 submissions/month.
 
 ---
 
